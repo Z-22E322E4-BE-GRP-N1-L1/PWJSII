@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</head>
+
+<body>
+  <p>Aula 11 - 17/11/22</p>
+  <h5>Funcionários</h5>
+  <main>
+    <!--     Fomulário para inserir  -->
+    <div>
+      <label for="funcNome">Nome:</label>
+      <input type="text" id="funcNome">
+    </div>
+    <div>
+      <label for="funcSalario">Salário:</label>
+      <input type="number" id="funcSalario">
+    </div>
+    <div>
+      <button class="btn" id="btnSalvar">Salvar</button>
+    </div>
+    
+    <!--     Tabela com os dados -->
+    <table>
+      <thead>
+        <th>Nome</th>
+        <th>Salário</th>
+      </thead>
+      <tbody id="tableBody"></tbody>
+    </table>
+
+    
+  </main>
+  <script src="script.js"></script>
+</body>
+
+</html>
